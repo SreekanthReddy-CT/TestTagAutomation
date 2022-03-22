@@ -23,7 +23,7 @@ jobs:
 
           git checkout master
           git add .
-          git commit -m "Added framework"
-          git push origin master --force
+          git commit -m "Updated Podspec file"
+          git push
 
    
