@@ -20,8 +20,6 @@ jobs:
       - name: Commit
         run: |
           # Stage the file, commit and push
-
-          git checkout master
           git add .
           git commit -m "Updated Podspec file"
           git push
